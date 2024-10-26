@@ -37,7 +37,7 @@
                 {{auth()->user()->name ?? auth()->user()->username}}
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="{{ route('cliente.perfil') }}">Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="/logout">Cerrar Sesion</a></li>
