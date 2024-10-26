@@ -1,6 +1,8 @@
+
 @extends('layouts.auth-master')
 
 @section('content')
+
 <form action="/login" method="POST">
     @csrf
     <h1>Iniciar Sesion</h1>

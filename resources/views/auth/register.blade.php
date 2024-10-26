@@ -3,6 +3,7 @@
 @section('content')
 
 <form action="/register" method="POST">
+    
     @csrf
     <h1>Registrarse</h1>
     @include('layouts.partials.messages')
@@ -35,6 +36,3 @@
     </div>
 </form>
 @endsection
-
-
-
